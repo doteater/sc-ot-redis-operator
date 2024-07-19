@@ -9,7 +9,7 @@ spec:
     image: quay.io/opstree/redis:v7.0.12
     imagePullPolicy: IfNotPresent
     redisSecret:
-      name: netbox-redis-secret
+      name: netbox-redis
       key: password
   storage:
     volumeClaimTemplate:
